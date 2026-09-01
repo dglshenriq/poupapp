@@ -13,3 +13,10 @@
   --secondary-income: #D6FF62;
   --secondary-expense: #F87828;
 }
+
+body {
+  margin: 0;
+  background-color: var(--neutral-background);
+  color: var(--neutral-text);
+  font-family: 'Inter', sans-serif;
+}

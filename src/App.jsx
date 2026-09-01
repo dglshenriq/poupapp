@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import logo from './assets/logo.svg'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Poupapp</h1>
+      <aside>
+        <img src={logo} alt="" />
+      </aside>
     </>
   )
 }
