@@ -2,6 +2,7 @@ import { Container } from "./components/Container";
 import { Aside } from "./components/Aside";
 import { SearchInput } from "./components/SearchInput";
 import { Main } from "./components/Main";
+import { Typography } from "./components/Typography";
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
       <Aside />
       <Main>
         <SearchInput placeholder="Procure seu dinheiro..." />
+        <div>
+          <Typography variant="h1">Olá, Douglas!</Typography>
+          <Typography variant="body">Veja como estão suas finanças hoje.</Typography>
+        </div>
       </Main>
     </Container>
   );
