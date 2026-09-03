@@ -1,13 +1,17 @@
-import { Container } from './components/Container'
-import { Aside } from './components/aside'
+import { Container } from "./components/Container";
+import { Aside } from "./components/Aside";
+import { SearchInput } from "./components/SearchInput";
+import { Main } from "./components/Main";
 
 function App() {
   return (
     <Container>
       <Aside />
-      <h1>Olá, seja bem-vindo(a) ao PoupApp!</h1>
+      <Main>
+        <SearchInput placeholder="Procure seu dinheiro..." />
+      </Main>
     </Container>
-  )
+  );
 }
 
-export default App
+export default App;
