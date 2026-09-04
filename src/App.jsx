@@ -10,6 +10,7 @@ import { SavingsStatus } from "./components/SavingsStatus";
 import { Transactions } from "./components/Transactions";
 
 import styles from "./app.module.css";
+import { Accounts } from "./components/Accounts";
 
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
           </Card>
           <Card>
             <Card.Header>Minhas contas</Card.Header>
-            <Card.Body>R$ 200</Card.Body>
+            <Card.Body><Accounts /></Card.Body>
           </Card>
         </section>
         </div>
