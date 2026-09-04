@@ -7,8 +7,10 @@ import { Typography } from "./components/Typography";
 import Card from "./components/Card";
 import { DailyBudget } from "./components/DailyBudget";
 import { SavingsStatus } from "./components/SavingsStatus";
+import { Transactions } from "./components/Transactions";
 
 import styles from "./app.module.css";
+
 
 function App() {
   return (
@@ -36,7 +38,7 @@ function App() {
           </Card>
           <Card>
             <Card.Header>Movimentação financeira</Card.Header>
-            <Card.Body>R$ 200</Card.Body>
+            <Card.Body><Transactions /></Card.Body>
           </Card>
           <Card>
             <Card.Header>Minhas contas</Card.Header>
